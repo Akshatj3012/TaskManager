@@ -17,12 +17,17 @@ MONGODB_URI=<YOUR_MONGODB_URI>
    ```bash
    cd backend
    ```
-3. Install dependencies:
+3. Create a .env file in the backend directory.
+
+Add MongoDB Connection URL: Inside the .env file, add MONGODB_URL=your_mongo_connection_url_here.
+
+
+4. Install dependencies:
 
 ```bash
 npm install
 ```
-4. Start the backend server:
+5. Start the backend server:
 
 ```bash
 npm start
